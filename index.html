@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Archana</a>
+        <nav>
+            <a href="#home" class="nav-link" data-target="home">Home</a>
+            <a href="#skills" class="nav-link" data-target="skills">Skills</a>
+            <a href="#education" class="nav-link" data-target="education">Education</a>
+            <a href="#experience" class="nav-link" data-target="experience">Experience</a>
+            <a href="#contact" class="nav-link" data-target="contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="my photo.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi,Iam <span>Archana Bandi</span></h1>
+            <h3 class="typing-text">My Skills<span></span></h3>
+            <p>Final year B.Tech student  specialized in Computer Science and Engineering with a Strong Foundation in Programming,Problem solving skills.Passionate about Web development,ML </p>
+            <div class="social-icons">
+                
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/archana-bandi06" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Archana639" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:archanabandi17@gmail.com"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            <a href="#" class="btn">Hire me</a>
+        </div>
+    </section>
+    <section id="skills" class="section" >
+        <h2 style="color: #b74b4b;">My Skills</h2>
+        <ul>
+            <li><strong>Web Development:</strong> HTML, CSS, JavaScript</li>
+            <li><strong>Programming Languages:</strong> Python, Java, C</li>
+            <li><strong>Machine Learning:</strong> TensorFlow, Scikit-learn</li>
+            <li><strong>Other Tools:</strong> Git, VS Code</li>
+        </ul>
+    </section>
+
+    <section id="education" class="section">
+        <h2 style="color: #b74b4b;">My Education</h2>
+        <p>B.Tech in Computer Science and Engineering</p>
+        <p ><strong >University:</strong> R.V.R & J.C College of Engineering</p>
+        <p><strong>Year:</strong> 2021-2025</p>
+        
+        <p>Intermediate</p>
+        <p><strong>College:</strong> Sri Pratibha Junior College</p>
+        <p><strong>Year:</strong> 2019-2021</p>
+
+        <p>SSC</p>
+        <p><strong>School:</strong>A.R.Z.P.High School</p>
+        <p><strong>Year:</strong> 2018-2019</p>
+    </section>
+
+    <section id="projects">
+        <h2 style="color: #b74b4b;">Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A fully responsive portfolio website built using HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/Archana639" class="btn" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <div id="experience" class="section">
+        <h2 style="color: #b74b4b;">Experience</h2>
+        <div class="experience-item">
+            <h3 style="color:#b74b4b" ><strong>Intern - Machine Learning</strong></h3>
+            <p>Skill Dzire Company (May 2024 – July 2024)</p>
+            <ul>
+                <p><strong>Project:</strong> <span style="color:#b74b4b;">Fake News Classification Using LSTM</span><p>
+                <li>Developed a Fake News Classification system using Long Short-Term Memory (LSTM) networks to detect misinformation with high accuracy.</li>
+                <li>Preprocessed textual data, including tokenization and embedding, to enhance model performance.</li>
+                <li>Implemented the project using Python, TensorFlow, and NLP techniques for real-world applicability.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3 style="color:#b74b4b" ><strong>Intern - Web Development</strong></h3>
+            <p>1 Stop.ai Company (April 2023 – May 2023)</p>
+            <ul>
+                <p><strong>Project:</strong> <span style="color:#b74b4b;">Simple Personal Portfolio</span><p>
+                <li>Developed a simple  personal portfolio website using HTML,CSS and basic JAVASCRIPT to showcase my projects,experience,contact information</li>
+                <li>Implemented modern design principles, responsive layouts for mobile compatibility, and smooth scrolling effects using JavaScript.</li>
+                <li>Demonstrated front-end development skills and user-friendly design.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <section id="contact" class="section">
+        <h2 style="color: #b74b4b;">Contact Me</h2>
+        <p>Email: archanabandi17@gmail.com</p>
+        <p>Phone: +91-8978232684</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="_replyto" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
